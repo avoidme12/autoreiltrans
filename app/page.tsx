@@ -9,7 +9,6 @@ import AdvantageCard from '../components/AdvantageCard';
 import TruckAnimation from '../components/TruckAnimation';
 import ParticlesBackground from "@/components/ParticlesBackground";
 import { motion } from 'framer-motion';
-import most from '../public/most.jpg'
 
 export default function Home() {
   const parallaxRef = useRef(null);

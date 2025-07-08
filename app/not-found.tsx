@@ -4,8 +4,6 @@ import { useEffect, useRef } from 'react';
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import AnimatedText from '../components/AnimatedText';
-import ServiceCard from '../components/ServiceCard';
-import AdvantageCard from '../components/AdvantageCard';
 import TruckAnimation from '../components/TruckAnimation';
 import ParticlesBackground from "@/components/ParticlesBackground";
 
