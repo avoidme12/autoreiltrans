@@ -96,7 +96,7 @@ export default function Home() {
 
           <main className="container mx-auto px-4">
             {/* Hero Section */}
-            <section className="min-h-screen flex flex-col justify-center relative overflow-hidden pt-20 bg-[url(../public/most.jpg)]">
+            <section className="min-h-screen flex flex-col justify-center relative overflow-hidden pt-20 "> {/*bg-[url(../public/most.jpg)]*/}
               <div className="relative z-10">
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-white to-red-400">
                   АВТО<span className="text-red-500">РЕЙЛ</span><span className="text-red-600  ">ТРАНС</span>
@@ -165,7 +165,7 @@ export default function Home() {
                   </h4>
                   <hr className='border-2 rounded-sm bg-red-500 h-2 border-red-500'/>
                   <h4 className='font-bold text-[40px] text-red-600'>Как мы это делаем:</h4>
-                  <div className='ml-4 p-3'>
+                  <div className='ml-4 p-3 hidden 2xl:block'>
                     <p className='text-[26px] font-semibold mt-4'>▪ Рассчитываем стоимость работ
                     </p>
                     <p className='text-[26px] font-semibold mt-4'>▪ Заключаем договор на выполнение работ
